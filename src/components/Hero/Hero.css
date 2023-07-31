@@ -1,0 +1,26 @@
+.hero-container {
+  position: relative;
+  width: 100%;
+}
+
+.hero-background {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  background-image: url("../../assets/rental-baner.jpg");
+  background-size: cover;
+  background-position: 70%;
+  z-index: -1;
+}
+
+.hero {
+  position: relative; /* Wartość 'relative' dla .hero potrzebna do pozycjonowania heroBox */
+  padding-top: 50px; /* Dodatkowy padding dla .hero, aby uniknąć zasłaniania przez tło nawigacji */
+}
+
+.heroBox {
+  text-align: center;
+  color: white;
+}
