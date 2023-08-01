@@ -3,13 +3,17 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="hero-container">
-      <div className="hero-background"></div>
+    <div className="heroContainer">
+      <div className="heroBackground"></div>
       <div className="hero">
         <div className="heroBox">
-          <h2>Discover the perfect ride for your journey!</h2>
-          <h1>RENT ONE OF OUR CARS NOW</h1>
-          <button>RENT</button>
+          <h2 className="subTitle">
+            DISCOVER THE PERFECT RIDE FOR YOUR JOURNEY!
+          </h2>
+          <h1 className="title">RENT ONE OF OUR CARS NOW</h1>
+          <a className="rentNow" href="#">
+            RENT
+          </a>
         </div>
       </div>
     </div>
