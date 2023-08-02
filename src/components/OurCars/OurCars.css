@@ -31,14 +31,6 @@
   justify-content: center;
 }
 
-.carBox:nth-child(2n) {
-  margin-left: 50px;
-}
-
-.carBox:nth-child(2n + 1) {
-  margin-right: 50px;
-}
-
 .carName {
   position: absolute;
   top: 20px;
@@ -113,16 +105,68 @@
 @media screen and (min-width: 768px) {
   .carsDisplay {
     flex-direction: row;
+    gap: 10px;
   }
   .carBox {
-    position: relative;
-    width: 192px;
+    margin: 0 auto;
+    width: 170px;
     height: 150px;
-    background: #d9d9d9;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  }
+
+  .carPhoto {
+    width: 160px;
+    top: 60px;
+  }
+  .audiPhoto {
+    top: 54px;
+  }
+  .carHighlight {
+    margin: 40px 0;
+    flex-direction: row;
     justify-content: center;
+    gap: 10px;
+  }
+  .carSpecs {
+    border-top: none;
+    border-left: 2px solid var(--secondaryColor);
+  }
+  .photoHighlight {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .carsTitle {
+    font-size: 48px;
+  }
+  .carBox {
+    width: 210px;
+    height: 160px;
+  }
+  .carSpecs {
+    justify-content: center;
+  }
+
+  .carPhoto {
+    width: 190px;
+    top: 58px;
+  }
+  .audiPhoto {
+    top: 52px;
+  }
+  .photoHighlight {
+    width: 600px;
+  }
+  .carHighlight {
+    margin: 40px auto;
+  }
+  .specsName {
+    font-size: 42px;
+  }
+  .specsBtn {
+    transition: background 0.3s linear;
+  }
+  .specsBtn:hover {
+    background: var(--dark);
   }
 }

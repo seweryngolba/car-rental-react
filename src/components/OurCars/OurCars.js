@@ -15,23 +15,23 @@ const OurCars = () => {
       <div className="carsDisplay">
         <div className="carBox active">
           <h3 className="carName">AUDI R8</h3>
-          <img className="carPhoto" src={audiPhoto} alt="Audi R8" />
+          <img className="carPhoto audiPhoto" src={audiPhoto} alt="Audi R8" />
         </div>
         <div className="carBox">
           <h3 className="carName">STINGER</h3>
-          <img className="carPhoto" src={kiaPhoto} alt="Audi R8" />
+          <img className="carPhoto" src={kiaPhoto} alt="Kia Stinger" />
         </div>
         <div className="carBox">
           <h3 className="carName">BMW M3</h3>
-          <img className="carPhoto" src={bmwPhoto} alt="Audi R8" />
+          <img className="carPhoto" src={bmwPhoto} alt="Bmw M3" />
         </div>
         <div className="carBox">
           <h3 className="carName">TESLA</h3>
-          <img className="carPhoto" src={teslaPhoto} alt="Audi R8" />
+          <img className="carPhoto" src={teslaPhoto} alt="Tesla 3" />
         </div>
       </div>
       <div className="carHighlight">
-        <img className="photoHighlight" src={audiPhoto} alt="Audi R8" />
+        <img className="photoHighlight" src={kiaPhoto} alt="Car photo" />
         <div className="carSpecs">
           <h2 className="specsName">AUDI R8</h2>
           <div className="specsGrid">
