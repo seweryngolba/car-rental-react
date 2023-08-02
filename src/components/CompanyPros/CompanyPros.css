@@ -1,0 +1,56 @@
+.prosGrid {
+  margin-top: -50px;
+  width: 100%;
+  height: 240px;
+  background: var(--primaryColor);
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+.prosBox {
+  margin: 0 auto;
+  width: 120px;
+  height: 90px;
+  background: rgba(217, 217, 217, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 20px;
+}
+
+.prosName {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 85%;
+  width: 75px;
+  color: var(--light);
+}
+
+@media screen and (min-width: 768px) {
+  .prosGrid {
+    width: 100%;
+    height: 140px;
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .prosGrid {
+    margin-top: -67px;
+    height: 180px;
+  }
+  .prosName {
+    font-size: 24px;
+    width: 120px;
+  }
+  .prosBox {
+    margin: 0 auto;
+    width: 160px;
+    height: 120px;
+    gap: 8px;
+  }
+}

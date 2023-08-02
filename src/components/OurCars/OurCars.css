@@ -1,0 +1,120 @@
+.offer {
+  background: var(--light);
+}
+
+.carsTitle {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--primaryColor);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.carsDisplay {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.carBox {
+  position: relative;
+  width: 192px;
+  height: 150px;
+  background: #d9d9d9;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.carBox:nth-child(2n) {
+  margin-left: 50px;
+}
+
+.carBox:nth-child(2n + 1) {
+  margin-right: 50px;
+}
+
+.carName {
+  position: absolute;
+  top: 20px;
+  font-size: 32px;
+}
+
+.carPhoto {
+  width: 180px;
+  position: absolute;
+  top: 35px;
+}
+
+.audiPhoto {
+  width: 180px;
+  position: absolute;
+  top: 10px;
+}
+
+.teslaPhoto {
+  width: 220px;
+  position: absolute;
+  top: 35px;
+}
+
+.active {
+  background: var(--secondaryColor);
+}
+
+.carHighlight {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photoHighlight {
+  width: 290px;
+}
+
+.carSpecs {
+  margin-top: -40px;
+  width: 290px;
+  border-top: 2px solid var(--secondaryColor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.specsName {
+  margin-top: 10px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.specsBox {
+  width: 115px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 2px solid var(--secondaryColor);
+}
+
+.specsGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.specsBtn {
+  font-size: 20px;
+  background: var(--secondaryColor);
+  border: none;
+  color: var(--light);
+  width: 86px;
+  height: 34px;
+  border-radius: 10px;
+}
