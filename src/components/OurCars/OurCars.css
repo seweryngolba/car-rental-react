@@ -1,5 +1,7 @@
 .offer {
   background: var(--light);
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 .carsTitle {
@@ -46,19 +48,7 @@
 .carPhoto {
   width: 180px;
   position: absolute;
-  top: 35px;
-}
-
-.audiPhoto {
-  width: 180px;
-  position: absolute;
-  top: 10px;
-}
-
-.teslaPhoto {
-  width: 220px;
-  position: absolute;
-  top: 35px;
+  top: 50px;
 }
 
 .active {
@@ -69,6 +59,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 20px;
 }
 
 .photoHighlight {
@@ -76,7 +67,7 @@
 }
 
 .carSpecs {
-  margin-top: -40px;
+  margin-top: -20px;
   width: 290px;
   border-top: 2px solid var(--secondaryColor);
   display: flex;
@@ -117,4 +108,21 @@
   width: 86px;
   height: 34px;
   border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .carsDisplay {
+    flex-direction: row;
+  }
+  .carBox {
+    position: relative;
+    width: 192px;
+    height: 150px;
+    background: #d9d9d9;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
 }

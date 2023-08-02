@@ -15,7 +15,7 @@ const OurCars = () => {
       <div className="carsDisplay">
         <div className="carBox active">
           <h3 className="carName">AUDI R8</h3>
-          <img className="audiPhoto" src={audiPhoto} alt="Audi R8" />
+          <img className="carPhoto" src={audiPhoto} alt="Audi R8" />
         </div>
         <div className="carBox">
           <h3 className="carName">STINGER</h3>
@@ -27,7 +27,7 @@ const OurCars = () => {
         </div>
         <div className="carBox">
           <h3 className="carName">TESLA</h3>
-          <img className="teslaPhoto" src={teslaPhoto} alt="Audi R8" />
+          <img className="carPhoto" src={teslaPhoto} alt="Audi R8" />
         </div>
       </div>
       <div className="carHighlight">
