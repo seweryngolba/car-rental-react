@@ -1,0 +1,143 @@
+.footer {
+  width: 100%;
+  background: var(--primaryColor);
+}
+
+.footerPhoto {
+  height: 275px;
+  width: 100%;
+  background: url(../../assets/road1.jpg) center/cover;
+  opacity: 0.1;
+  border-bottom: 4px solid var(--secondaryColor);
+}
+
+.footerContainer {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.footerMain {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footLogo {
+  font-size: 28px;
+  color: var(--light);
+  text-decoration: none;
+  font-weight: 700;
+  padding-top: 18px;
+}
+
+.footerText {
+  width: 165px;
+  font-size: 12px;
+  color: var(--light);
+  text-align: center;
+}
+
+.footerList {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  padding: 18px 0;
+}
+
+.footElement {
+  text-decoration: none;
+  color: var(--light);
+  font-size: 20px;
+}
+
+.iconSection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.iconTitle {
+  font-size: 20px;
+  color: var(--light);
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-bottom: 28px;
+}
+
+.icons i {
+  font-size: 32px;
+  color: var(--light);
+}
+
+@media screen and (min-width: 768px) {
+  .footerContainer {
+    width: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  .footerMain {
+    align-items: flex-start;
+  }
+  .footerText {
+    text-align: left;
+    width: 175px;
+  }
+  .footerList {
+    flex-direction: row;
+    gap: 12px;
+    padding: 18px 0;
+  }
+  .footLogo {
+    padding-top: 0;
+  }
+  .icons {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footerContainer {
+    width: 980px;
+    padding: 30px 0;
+  }
+  .footLogo {
+    font-size: 32px;
+  }
+  .footerText {
+    width: 230px;
+    font-size: 16px;
+  }
+  .footElement {
+    font-size: 28px;
+    transition: color 0.3s linear;
+  }
+
+  .footElement:hover {
+    color: var(--secondaryColor);
+  }
+
+  .footerList {
+    gap: 24px;
+  }
+  .iconTitle {
+    font-size: 24px;
+  }
+
+  .icons i {
+    font-size: 42px;
+    transition: color 0.3s linear;
+  }
+
+  .icons i:hover {
+    color: var(--secondaryColor);
+  }
+}
