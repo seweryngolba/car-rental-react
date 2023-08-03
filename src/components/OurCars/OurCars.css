@@ -58,6 +58,21 @@
   width: 290px;
 }
 
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slideInAnimation {
+  animation: slideInRight 0.5s ease;
+}
+
 .carSpecs {
   margin-top: -20px;
   width: 290px;
@@ -164,6 +179,7 @@
     font-size: 42px;
   }
   .specsBtn {
+    cursor: pointer;
     transition: background 0.3s linear;
   }
   .specsBtn:hover {
