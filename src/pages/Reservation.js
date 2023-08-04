@@ -1,3 +1,4 @@
+import FormBox from "../components/FormBox/FormBox";
 import "./Reservation.css";
 
 const Reservation = () => {
@@ -11,9 +12,7 @@ const Reservation = () => {
           <div className="process"></div>
         </div>
       </div>
-      {/* <Form />
-      <StepTwo />
-      <FinalStep /> */}
+      <FormBox />
     </div>
   );
 };

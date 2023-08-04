@@ -1,0 +1,86 @@
+.formBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.inputGroup,
+.dateGroup {
+  position: relative;
+}
+
+.inputGroup label {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: var(--primaryColor);
+  padding: 0 5px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.dateGroup label {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: var(--primaryColor);
+  padding: 0 5px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.inputGroup input,
+.dateGroup input {
+  width: 280px;
+  height: 38px;
+  font-size: 16px;
+  color: var(--primaryColor);
+  padding: 0 10px;
+  background: transparent;
+  border: 1px solid var(--primaryColor);
+  outline: none;
+  border-radius: 5px;
+}
+
+.inputGroup input:focus ~ label,
+.inputGroup input:valid ~ label,
+.dateGroup input:focus ~ label,
+.dateGroup input:valid ~ label {
+  top: 0;
+  font-size: 14px;
+  background: var(--light);
+}
+
+.selectGroup {
+  position: relative;
+  width: 280px;
+  height: 38px;
+  font-size: 16px;
+  color: var(--primaryColor);
+  padding: 0 10px;
+  background: transparent;
+  border: 1px solid var(--primaryColor);
+  outline: none;
+  border-radius: 5px;
+}
+
+.carSelect {
+  width: 230px;
+  height: 38px;
+  font-size: 16px;
+  color: var(--primaryColor);
+  background: transparent;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.carSelect option {
+  padding-right: 20px;
+}
