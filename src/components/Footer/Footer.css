@@ -1,14 +1,7 @@
 .footer {
   width: 100%;
   background: var(--primaryColor);
-}
-
-.footerPhoto {
-  height: 275px;
-  width: 100%;
-  background: url(../../assets/road1.jpg) center/cover;
-  opacity: 0.1;
-  border-bottom: 4px solid var(--secondaryColor);
+  border-top: 2px solid var(--secondaryColor);
 }
 
 .footerContainer {

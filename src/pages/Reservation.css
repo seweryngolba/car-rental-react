@@ -1,0 +1,29 @@
+.reservationContainer {
+  height: 100vh;
+}
+
+.topReservation {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.processBars {
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.process {
+  width: 80px;
+  height: 4px;
+  background: var(--primaryColor);
+  border-radius: 10px;
+}
+
+.active {
+  background: var(--secondaryColor);
+}

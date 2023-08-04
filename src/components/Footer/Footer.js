@@ -11,7 +11,6 @@ const Footer = () => {
   };
   return (
     <div className="footer">
-      <div className="footerPhoto"></div>
       <div className="footerContainer">
         <div className="footerMain">
           <Link className=" footLogo" to={"/"} onClick={handleScrollToTop}>
