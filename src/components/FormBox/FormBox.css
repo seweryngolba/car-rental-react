@@ -58,8 +58,7 @@
   background: var(--light);
 }
 
-.selectGroup {
-  position: relative;
+.carSelect {
   width: 280px;
   height: 38px;
   font-size: 16px;
@@ -71,16 +70,20 @@
   border-radius: 5px;
 }
 
-.carSelect {
-  width: 230px;
-  height: 38px;
-  font-size: 16px;
-  color: var(--primaryColor);
-  background: transparent;
+.submitBtn {
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
   border: none;
-  outline: none;
-  border-radius: 5px;
+  background: var(--secondaryColor);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--light);
 }
-.carSelect option {
-  padding-right: 20px;
+
+.inputGroup p,
+.dateGroup p {
+  color: var(--secondaryColor);
+  font-size: 12px;
+  padding: 4px 0 0 10px;
 }
