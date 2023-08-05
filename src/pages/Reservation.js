@@ -1,7 +1,14 @@
 import FormBox from "../components/FormBox/FormBox";
+import { useState } from "react";
+import LastStep from "../components/LastStep/LastStep";
 import "./Reservation.css";
 
 const Reservation = () => {
+  const [formData, setFormData] = useState("");
+
+  const handleFormSubmit = (data) => {
+    setFormData(data);
+  };
   return (
     <>
       <div className="reservationContainer">
@@ -14,7 +21,8 @@ const Reservation = () => {
           </div>
         </div>
       </div>
-      <FormBox />
+      <FormBox onFormSubmit={handleFormSubmit} />
+      <LastStep formData={formData} />
     </>
   );
 };

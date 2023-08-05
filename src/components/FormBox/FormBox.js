@@ -3,7 +3,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import "./FormBox.css";
 
-const FormBox = () => {
+const FormBox = ({ onFormSubmit }) => {
   const schema = yup.object().shape({
     fullName: yup.string().required("Your Full Name is required"),
     email: yup.string().email().required("Email is required"),
@@ -40,6 +40,7 @@ const FormBox = () => {
   });
   const onSubmit = (data) => {
     console.log(data);
+    onFormSubmit(data);
   };
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="formBox">
@@ -89,10 +90,10 @@ const FormBox = () => {
         <p>{errors.endDate?.message}</p>
       </div>
       <select className="carSelect" required {...register("car")}>
-        <option value={250}>Audi R8</option>
-        <option value={150}>Kia Stinger</option>
-        <option value={180}>BMW M3</option>
-        <option value={120}>Tesla 3</option>
+        <option>Audi R8</option>
+        <option>Kia Stinger</option>
+        <option>BMW M3</option>
+        <option>Tesla 3</option>
       </select>
 
       <input className="submitBtn" type="submit" value="NEXT" />
