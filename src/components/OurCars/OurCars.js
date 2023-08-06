@@ -24,7 +24,7 @@ const OurCars = () => {
   };
 
   return (
-    <div className="offer">
+    <div id="offer" className="offer">
       <h2 className="carsTitle">OUR CARS</h2>
       <div className="carsDisplay">
         {carsData.map((car) => (
@@ -70,7 +70,9 @@ const OurCars = () => {
             </div>
             <div className="specsBox">{`from ` + activeCar.price + `$`}</div>
           </div>
-          <button className="specsBtn">RENT</button>
+          <a href="/rent" className="specsBtn">
+            RENT
+          </a>
         </div>
       </div>
     </div>

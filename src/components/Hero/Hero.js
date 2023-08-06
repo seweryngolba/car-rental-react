@@ -11,7 +11,7 @@ const Hero = () => {
             DISCOVER THE PERFECT RIDE FOR YOUR JOURNEY!
           </h2>
           <h1 className="title">RENT ONE OF OUR CARS NOW</h1>
-          <a className="rentNow" href="#">
+          <a className="rentNow" href="/rent">
             RENT
           </a>
         </div>

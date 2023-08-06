@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./Footer.css";
 
 const Footer = () => {
@@ -21,29 +22,29 @@ const Footer = () => {
           </p>
         </div>
         <div className="footerList">
-          <Link className="footElement" to={"/"}>
+          <HashLink className="footElement" to={"/#offer"}>
             OFFER
-          </Link>
-          <Link className="footElement" to={"/"}>
+          </HashLink>
+          <HashLink className="footElement" to={"/#about"}>
             ABOUT
-          </Link>
+          </HashLink>
           <Link className="footElement" to={"/rent"}>
             RENT
           </Link>
-          <Link className="footElement" to={"/"}>
+          <HashLink className="footElement" to={"/#contact"}>
             CONTACT
-          </Link>
+          </HashLink>
         </div>
         <div className="iconSection">
           <h4 className="iconTitle">FIND US ON:</h4>
           <div className="icons">
-            <a href="javascript:;">
+            <a href="/">
               <i className="fa-brands fa-square-facebook"></i>
             </a>
-            <a href="javascript:;">
+            <a href="/">
               <i className="fa-brands fa-instagram"></i>
             </a>
-            <a href="javascript:;">
+            <a href="/">
               <i className="fa-brands fa-linkedin"></i>
             </a>
           </div>

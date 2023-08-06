@@ -4,7 +4,7 @@ import contactCar from "../../assets/contactphoto.png";
 const ContactUs = () => {
   return (
     <>
-      <div className="contactSection">
+      <div id="contact" className="contactSection">
         <div className="contactContainer">
           <h2 className="contactTitle">CONTACT US</h2>
           <div className="contactTextbox">

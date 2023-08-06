@@ -3,7 +3,7 @@ import topCar from "../../assets/topcar.png";
 
 const AboutUs = () => {
   return (
-    <div className="aboutSection">
+    <div id="about" className="aboutSection">
       <div className="allAbout">
         <div className="aboutTextbox">
           <h2 className="aboutTitle">ABOUT US</h2>
