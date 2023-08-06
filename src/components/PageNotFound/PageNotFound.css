@@ -1,0 +1,20 @@
+.pageBox {
+  height: 100vh;
+  background: url("../../assets/pagenotfound.jpg") center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.pageBox div {
+  margin-bottom: 80px;
+}
+
+.pageBox h1 {
+  font-size: 72px;
+  text-align: center;
+}
+
+.pageBox h2 {
+  font-size: 48px;
+}
