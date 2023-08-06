@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/car-rental-react/static/css/main.27c022c7.css",
+    "main.css": "/car-rental-react/static/css/main.a383da6d.css",
     "main.js": "/car-rental-react/static/js/main.1fabed2d.js",
     "static/media/road2.jpg": "/car-rental-react/static/media/road2.6af9bda3ee1fe8e62b99.jpg",
     "static/media/rental-baner.jpg": "/car-rental-react/static/media/rental-baner.0dc8774f84cedf53eeb3.jpg",
@@ -17,11 +17,11 @@
     "static/media/slick.ttf": "/car-rental-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/car-rental-react/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/car-rental-react/index.html",
-    "main.27c022c7.css.map": "/car-rental-react/static/css/main.27c022c7.css.map",
+    "main.a383da6d.css.map": "/car-rental-react/static/css/main.a383da6d.css.map",
     "main.1fabed2d.js.map": "/car-rental-react/static/js/main.1fabed2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.27c022c7.css",
+    "static/css/main.a383da6d.css",
     "static/js/main.1fabed2d.js"
   ]
 }
