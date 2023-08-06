@@ -17,5 +17,13 @@
 }
 
 .pageBox h2 {
-  font-size: 48px;
+  font-size: 32px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .pageBox h2 {
+    font-size: 48px;
+    text-align: center;
+  }
 }
