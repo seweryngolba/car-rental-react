@@ -4,7 +4,7 @@ This repository contains the code for a car rental website. The website allows u
 
 ## Live Demo
 
-Check out the live demo of the project: [Demo](https://seweryngolba.github.io/car-rental-react/)
+Check out the live demo of the project: [Demo page](https://seweryngolba.github.io/car-rental-react/)
 
 ## Table of Contents
 
