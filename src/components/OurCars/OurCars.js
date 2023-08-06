@@ -70,7 +70,7 @@ const OurCars = () => {
             </div>
             <div className="specsBox">{`from ` + activeCar.price + `$`}</div>
           </div>
-          <a href="car-rental-react/#/rent" className="specsBtn">
+          <a href="#/rent" className="specsBtn">
             RENT
           </a>
         </div>
