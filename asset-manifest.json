@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/car-rental-react/static/css/main.091aa7be.css",
+    "main.js": "/car-rental-react/static/js/main.547972d0.js",
+    "static/media/road2.jpg": "/car-rental-react/static/media/road2.6af9bda3ee1fe8e62b99.jpg",
+    "static/media/rental-baner.jpg": "/car-rental-react/static/media/rental-baner.0dc8774f84cedf53eeb3.jpg",
+    "static/media/road1.jpg": "/car-rental-react/static/media/road1.45c27e1ffd529529735f.jpg",
+    "static/media/contactphoto.png": "/car-rental-react/static/media/contactphoto.896838e454e28c4f018b.png",
+    "static/media/topcar.png": "/car-rental-react/static/media/topcar.2ac22a2301f2eaea584b.png",
+    "static/media/kiastinger.png": "/car-rental-react/static/media/kiastinger.8e43e93fb389760277dd.png",
+    "static/media/tesla3.png": "/car-rental-react/static/media/tesla3.325ffb45da91bbbb64fa.png",
+    "static/media/bmw3.png": "/car-rental-react/static/media/bmw3.6b537d27099e773ff22a.png",
+    "static/media/audir8.png": "/car-rental-react/static/media/audir8.79b317f06096ef55cd3e.png",
+    "static/media/slick.svg": "/car-rental-react/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/car-rental-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/car-rental-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/car-rental-react/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/car-rental-react/index.html",
+    "main.091aa7be.css.map": "/car-rental-react/static/css/main.091aa7be.css.map",
+    "main.547972d0.js.map": "/car-rental-react/static/js/main.547972d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.091aa7be.css",
+    "static/js/main.547972d0.js"
+  ]
+}
