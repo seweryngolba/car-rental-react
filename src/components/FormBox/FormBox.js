@@ -2,6 +2,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import "./FormBox.css";
+import calculateCost from "../../functions/calculateCost";
 
 const FormBox = ({ onFormSubmit }) => {
   const schema = yup.object().shape({
@@ -39,8 +40,13 @@ const FormBox = ({ onFormSubmit }) => {
     resolver: yupResolver(schema),
   });
   const onSubmit = (data) => {
+    const calculatedCost = calculateCost(
+      data.startDate,
+      data.endDate,
+      data.car
+    );
     console.log(data);
-    onFormSubmit(data);
+    onFormSubmit({ ...data, cost: calculatedCost });
   };
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="formBox">
