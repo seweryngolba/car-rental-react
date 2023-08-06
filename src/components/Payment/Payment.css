@@ -1,3 +1,7 @@
+.cardBox {
+  height: 100vh;
+}
+
 .cardBox,
 .cardForm {
   display: flex;

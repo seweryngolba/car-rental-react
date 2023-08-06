@@ -3,7 +3,7 @@ import "react-credit-cards/es/styles-compiled.css";
 import "./Payment.css";
 import { useState } from "react";
 
-const Payment = ({ cost }) => {
+const Payment = ({ cost, onBack, onNext }) => {
   const [cvc, setCVC] = useState("");
   const [expiry, setExpiry] = useState("");
   const [focus, setFocus] = useState("");
@@ -79,20 +79,15 @@ const Payment = ({ cost }) => {
         />
       </form>
       <div className="stepBtns">
-        <button className="paymentBtn">BACK</button>
-        <button className="paymentBtn">NEXT</button>
+        <button className="paymentBtn" onClick={onBack}>
+          BACK
+        </button>
+        <button className="paymentBtn" onClick={onNext}>
+          NEXT
+        </button>
       </div>
     </div>
   );
 };
 
 export default Payment;
-
-{
-  /* <button className="paymentBtns" onClick={onBack}>
-BACK
-</button>
-<button className="paymentBtns" onClick={onNext}>
-NEXT
-</button> */
-}
